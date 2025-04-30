@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BagIt - Bag It & Brag It</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Pie chart styling */
+    .pie-chart {
+      width: 12rem;
+      height: 12rem;
+      border-radius: 9999px;
+      background: conic-gradient(
+        #4ADE80 0% 50%,   /* Liquidity */
+        #60A5FA 50% 80%,  /* Community */
+        #FBBF24 80% 95%,  /* Team & Marketing */
+        #F472B6 95% 100%  /* Charity & Education */
+      );
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-indigo-900 text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <img src="assets/bag_it.png" alt="BagIt Logo" class="mx-auto w-32 mb-6">
+      <h1 class="text-5xl font-bold mb-4">Bag It & Brag It</h1>
+      <p class="text-xl mb-6">$BAGIT</p>
+      <a href="#" class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded">Buy on PumpFun</a>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-8">How It Works</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <div class="text-6xl mb-4">📉</div>
+          <h3 class="text-2xl font-semibold mb-2">Take a Loss</h3>
+          <p>Hold through a significant drawdown.</p>
+        </div>
+        <div>
+          <div class="text-6xl mb-4">🎫</div>
+          <h3 class="text-2xl font-semibold mb-2">Earn a Badge</h3>
+          <p>Burn tokens to mint your Bag Badge NFT.</p>
+        </div>
+        <div>
+          <div class="text-6xl mb-4">🎁</div>
+          <h3 class="text-2xl font-semibold mb-2">Get Rewards</h3>
+          <p>Quarterly airdrops from the Bag Fund.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tokenomics Section -->
+  <section id="tokenomics" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-center">Tokenomics</h2>
+      <div class="flex flex-col md:flex-row items-center justify-center">
+        <div class="pie-chart mb-6 md:mb-0 md:mr-8"></div>
+        <ul class="space-y-3 text-lg">
+          <li><span class="inline-block w-4 h-4 bg-green-400 rounded mr-2"></span>Liquidity (50%) - 500,000,000</li>
+          <li><span class="inline-block w-4 h-4 bg-blue-400 rounded mr-2"></span>Community Rewards & Airdrops (30%) - 300,000,000</li>
+          <li><span class="inline-block w-4 h-4 bg-yellow-400 rounded mr-2"></span>Team & Marketing (15%) - 150,000,000</li>
+          <li><span class="inline-block w-4 h-4 bg-pink-400 rounded mr-2"></span>Charity & Education (5%) - 50,000,000</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap Section -->
+  <section id="roadmap" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-8 text-center">Roadmap</h2>
+      <ul class="space-y-6 text-lg max-w-xl mx-auto">
+        <li><strong>Q2 2025:</strong> Launch on PumpFun & site live.</li>
+        <li><strong>Q3 2025:</strong> First Bag Fund unlock & badge rewards.</li>
+        <li><strong>Q4 2025:</strong> Debut Bag Swap auctions & charity donation.</li>
+        <li><strong>Q1 2026:</strong> Partnerships & mobile widget.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section id="community" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-8">Community</h2>
+      <p class="mb-6">Join our Telegram, Discord, and Twitter to share your biggest bag stories!</p>
+      <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8">
+        <a href="#" class="text-indigo-600 hover:underline">Telegram</a>
+        <a href="#" class="text-indigo-600 hover:underline">Discord</a>
+        <a href="#" class="text-indigo-600 hover:underline">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-indigo-900 text-white text-center">
+    <p class="mb-4">Meme coin only—bagging not guaranteed.</p>
+    <p>
+      <a href="https://github.com/your-repo" class="underline">GitHub</a> |
+      <a href="https://www.netlify.com" class="underline">Netlify</a>
+    </p>
+  </footer>
+
+</body>
+</html>
